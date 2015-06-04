@@ -1,8 +1,8 @@
 <?php
 //Use composer to insall phpunit-selenium
 require '../vendor/autoload.php';
-define('BROWSERSTACK_USER', 'kevinwareman2');
-define('BROWSERSTACK_KEY', 'gUoLmv8gzDsFrzpeyvqK');
+define('BROWSERSTACK_USER', PUT_USER_HERE);
+define('BROWSERSTACK_KEY', PUT_KEY_HERE);
 class exampleTest extends PHPUnit_Extensions_Selenium2TestCase
 {
     public static $browsers = array(
